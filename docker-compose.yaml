@@ -4,11 +4,17 @@ services:
     image: hk804/ramakrishna:v2
     ports:
       - "82:80"
+    deploy:
+       replicas: 3
   sravaya:
     image: hk804/sravaya:v2
     ports:
       - "83:80"
+    deploy:
+       replicas: 3
   kavaya:
     image: hk804/kavaya:v2
     ports:
       - "84:80"
+    deploy:
+       replicas: 3
