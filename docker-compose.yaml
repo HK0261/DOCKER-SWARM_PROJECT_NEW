@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  ramakrishna:
+    image: hk804/ramakrishna:v2
+    ports:
+      - "82:80"
+  sravaya:
+    image: hk804/sravaya:v2
+    ports:
+      - "83:80"
+  kavaya:
+    image: hk804/kavaya:v2
+    ports:
+      - "84:80"
